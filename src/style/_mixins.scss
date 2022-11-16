@@ -1,0 +1,43 @@
+@import './variables';
+
+@mixin flex($flex-direction, $align-items, $justify-content) {
+  display: flex;
+  flex-direction: $flex-direction;
+  align-items: $align-items;
+  justify-content: $justify-content;
+}
+
+// Small devices
+@mixin sm {
+  @media screen and (max-width: 576px) {
+    @content;
+  }
+}
+
+// Medium devices
+@mixin md {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+// Large devices
+@mixin l {
+  @media screen and (min-width: 992px) {
+    @content;
+  }
+}
+
+// Extra large devices
+@mixin xl {
+  @media screen and (min-width: 1200px) {
+    @content;
+  }
+}
+
+// Super extra large devices
+@mixin xxl {
+  @media screen and (max-width: 1400px) {
+    @content;
+  }
+}
