@@ -24,17 +24,26 @@ body {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  // background-color: rgb(100, 100, 26);
 
   @include md {
     max-width: 720px;
+    // background-color: red;
   }
 
   @include l {
     max-width: 960px;
+    // background-color: green;
   }
 
   @include xl {
+    max-width: 1000px;
+    // background-color: grey;
+  }
+
+  @include xxl {
     max-width: 1200px;
+    // background-color: pink;
   }
 }
 
