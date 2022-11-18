@@ -1,0 +1,41 @@
+@import '../../style/mixins';
+@import '../../style/variables';
+
+.cards-about {
+  height: 60vh;
+  background-color: var(--color-light);
+  padding: 100px 0;
+
+  .cards-about-wrap {
+    @include flex(row, center, space-between);
+
+    .card {
+      @include flex(column, center, flex-start);
+      width: 510px;
+      height: 300px;
+      text-align: center;
+      padding: 0 1rem;
+
+      svg {
+        height: 100px;
+        width: 100px;
+        height: 177px;
+        color: var(--color-main);
+      }
+
+      h3 {
+        font-family: var(--header-font);
+        font-size: 30px;
+        line-height: 38px;
+        font-weight: 500;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 29px;
+        font-weight: 400;
+      }
+    }
+  }
+}
