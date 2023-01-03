@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.8e989554.css",
-    "main.js": "/static/js/main.2821b476.js",
-    "static/js/787.e1b2d0c3.chunk.js": "/static/js/787.e1b2d0c3.chunk.js",
-    "static/media/logo.png": "/static/media/logo.cda28fd7939df02a8da2.png",
-    "index.html": "/index.html",
-    "main.8e989554.css.map": "/static/css/main.8e989554.css.map",
-    "main.2821b476.js.map": "/static/js/main.2821b476.js.map",
-    "787.e1b2d0c3.chunk.js.map": "/static/js/787.e1b2d0c3.chunk.js.map"
+    "main.css": "/smartquebe/static/css/main.8e989554.css",
+    "main.js": "/smartquebe/static/js/main.ac654d0c.js",
+    "static/js/787.e1b2d0c3.chunk.js": "/smartquebe/static/js/787.e1b2d0c3.chunk.js",
+    "static/media/logo.png": "/smartquebe/static/media/logo.cda28fd7939df02a8da2.png",
+    "index.html": "/smartquebe/index.html",
+    "main.8e989554.css.map": "/smartquebe/static/css/main.8e989554.css.map",
+    "main.ac654d0c.js.map": "/smartquebe/static/js/main.ac654d0c.js.map",
+    "787.e1b2d0c3.chunk.js.map": "/smartquebe/static/js/787.e1b2d0c3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8e989554.css",
-    "static/js/main.2821b476.js"
+    "static/js/main.ac654d0c.js"
   ]
 }
